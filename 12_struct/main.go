@@ -30,8 +30,8 @@ type foo int
 func main() {
 
 	// person
-	p1 := Person{ "David", "Qiu", 27}
-	p2 := Agent {
+	p1 := &Person{ "David", "Qiu", 27}
+	p2 := &Agent {
 		Person {
 			First: "James",
 			Last: "Bond",
